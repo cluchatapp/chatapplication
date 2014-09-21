@@ -1,0 +1,10 @@
+package com.clu.chat.core;
+
+import java.net.Socket;
+
+public interface CLUChatApplication {
+	
+	public void addUser(Socket client);
+	public void broadcastMessage(String message);
+
+}
